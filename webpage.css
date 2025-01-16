@@ -1,0 +1,416 @@
+     * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+
+    }
+
+    nav {
+        background-color: white;
+        font-family: "Raleway", Arial, Helvetica, sans-serif;
+        font-size: larger;
+        color: gray;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .ab {
+        background-color: red;
+        color: white;
+        display: inline;
+        padding: 6px;
+    }
+
+    .ab:hover {
+        background-color: rgb(135, 131, 131);
+        color: black;
+        border: 5px;
+        transition: background 0.3s ease;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+    }
+
+    ul li a {
+        color: gray;
+        text-decoration: none;
+        padding: 15px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    li a:hover {
+        background-color: rgb(135, 131, 131);
+        color: black;
+        border: 5px;
+        transition: background 0.3s ease;
+    }
+
+    .b1 {
+        width: 100%;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .booking-section {
+        position: relative;
+        z-index: 2px;
+        bottom: 300px;
+        background-color: white;
+        margin-left: 40px;
+        border-radius: 8px;
+        width: 600px;
+        height: 300px;
+        margin-top: -300px;
+    }
+
+    .booking-container h1 {
+        font-size: 24px;
+        color: white;
+        background-color: red;
+        padding: 10px;
+        border-radius: 8px 8px 0 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    form {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-row {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    .form-group {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        font-size: 14px;
+        color: #333;
+        margin-bottom: 5px;
+    }
+
+    input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+    .btn {
+        background-color: grey;
+        color: white;
+        padding: 12px;
+        width: 200px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+        display: flex;
+        gap: 10px;
+    }
+
+    .btn:hover {
+        background-color: rgb(174, 174, 174);
+        color: black;
+    }
+
+   
+    .room {
+        margin: 0px;
+        padding: 5px;
+        font-size: 25px;
+        margin-top: 30px;
+    }
+
+    .content {
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .content label {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .btu {
+        display: flex;
+        margin-left: 10px;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        gap: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+    .btu:hover {
+        background-color: rgb(174, 174, 174);
+        color: black;
+    }
+
+    .container {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .container img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .container div {
+        margin: 10px;
+        flex-basis: 20%;
+        padding-top: 15px;
+    }
+
+    .container i {
+        justify-content: space-evenly;
+        padding-top: 15px;
+    }
+
+    .container p {
+        padding-top: 15px;
+    }
+
+    .choose {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+        width: 400px;
+        margin-top: 5px;
+    }
+
+    .about {
+        display: flex;
+        gap: 20px;
+        width: 500px;
+        margin-top: 40px;
+    }
+
+    .para1 p {
+        margin-top: 10px;
+    }
+
+    .para2 {
+        width: 10px;
+    }
+
+    .info {
+        display: flex;
+        gap: 10px;
+        justify-content: space-around;
+        align-items: center;
+        padding: 25px;
+        margin: 10px;
+    }
+
+    .info p {
+        display: flex;
+        gap: 10px;
+        font-size: 23px;
+    }
+
+    .info i {
+        color: red;
+    }
+
+    #info {
+        background-color: red;
+        color: white;
+        width: 100%;
+        padding: 50px;
+    }
+
+    #info p {
+        display: flex;
+        gap: 20px;
+        font-size: 23px;
+    }
+
+    .book {
+        margin: 5px;
+        padding: 5px;
+        margin-top: 40px;
+    }
+
+    .book p {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .box {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 20px;
+
+    }
+
+    .box img {
+        width: 45%;
+        border-radius: 8px;
+
+    }
+
+    .imgs {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        gap: 5px;
+    }
+
+    .row {
+        display: flex;
+        padding: 5px;
+        justify-content: space-around;
+    }
+
+    .offer {
+        margin-top: 60px;
+        background-color: grey;
+        color: white;
+        padding: 30px;
+        transition: background o.3s ease;
+    }
+
+    .offer:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .offer h1 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .offer p {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .offer input {
+        width: 100%;
+        border-radius: none;
+    }
+
+    .sub {
+        background-color: red;
+        color: white;
+        font-size: 20px;
+        width: 150px;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .sub:hover {
+        background-color: grey;
+        color: white;
+
+    }
+
+    .contact {
+        margin-top: 50px;
+    }
+
+    .contact h1 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .contact h5 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .contact p {
+        display: flex;
+        gap: 15px;
+        font-size: 15px;
+        margin: 5px;
+
+    }
+
+    .contact i {
+        color: red;
+        margin: 5px;
+    }
+
+    .line {
+        margin-top: 20px;
+        width: 100%;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    .line input {
+        border-radius: none;
+        border-width: 3px;
+        border-style: solid;
+
+    }
+
+    .send {
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        width: 200px;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .send:hover {
+        background-color: grey;
+        color: white;
+
+    }
+
+    .final {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 25px;
+    }
+
+    .final i {
+        margin-top: 15px;
+    }
+
+    .final p {
+        margin-top: 15px;
+    }
+
+/* .book { 
+    width: 100%;
+    height:500px ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.large-img{
+  width:600px;
+  height: 620px;
+    display: grid;
+    grid-row: span 3;
+}
+
+ */
